@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Secular One', sans-serif;
+}
+.index h1{
+    text-align: center;
+    background-color: aqua;
+    padding: 10px;
+    margin: 0;
+    text-transform: uppercase;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 50px;
+    margin: 50px;
+}
+.card{
+    width: 20em;
+    background-color: aquamarine;
+    margin: 10px;
+    text-align: center;
+    border-radius: 30px;
+}
+.productoimg, .clienteimg{
+    width: 70%;
+    border-radius: 50px;
+    margin: 10px 0 40px 0px;
+}
+.gestion{
+    text-align: center
+}
+.gestion h1{
+    background-color: aqua;
+    margin: 0;
+    padding: 20px;
+}
+hr{
+    margin: 0;
+    border: 1px solid #000;
+}
+.gestion .nuevo{
+    background-color: bisque;
+    padding: 20px;
+}
+.nuevo a{
+    margin: 5px;
+    background-color: aquamarine;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #000;
+}
+.busqueda table{
+    padding: 10px;
+}
+input{
+    font-size: 14px;
+}
+input[type="submit"]{
+    padding: 10px;
+    background-color: rgb(228, 153, 54);
+    border: 1px solid #000;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.busqueda input[type="text"]{
+    padding: 10px;
+    background-color: #7fffd4;
+    border-radius: 10px;
+}
+.tabla td, th{
+    padding: 15px 10px;
+}
+.tabla{
+    background-color: rgb(225 235 221);;
+    width: 100%;
+}
+.editar{
+    background-color: #149c16;
+    padding: 10px;
+    border-radius: 10px;
+}
+.eliminar{
+    background-color: #e46748;
+    padding: 10px;
+    border-radius: 10px;
+}
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(255, 255, 255);
+}
+.container{
+    width: 350px;
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: aquamarine;
+    border-radius: 20px;
+    padding: 50px;
+}
+.container form{
+    width: 100%;
+}
+.container h3{
+    color: rgb(0, 0, 0);
+    font-size: 2em;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 40px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.container input{
+    border-radius: 10px;
+    outline: none;
+    padding: 0.5em;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+.container label{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+.iniciar{
+    min-width: 12.8em;
+    border: 0;
+    border-radius: 10px;
+    outline: none;
+    padding: 0.5em;
+    text-transform: uppercase;
+    background: #47CF73;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+.iniciar:hover{
+    background: #248C46;
+}
+.eliminando{
+    text-align: center;
+    margin-top: 15%;
+}
